@@ -4,5 +4,11 @@ import "fmt"
 
 func main() {
 	x := 7
-	fmt.Println(&x)
+	y := &x
+
+	fmt.Println(x, y)
+
+	*y = 8
+
+	fmt.Println(x, y)
 }
