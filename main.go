@@ -3,12 +3,12 @@ package main
 import "fmt"
 
 func main() {
-	x := 7
-	y := &x
+	myValue := 7
+	adressOfMyValue := &myValue
 
-	fmt.Println(x, y)
+	fmt.Println(myValue, adressOfMyValue)
 
-	*y = 8
+	*adressOfMyValue = 8
 
-	fmt.Println(x, y)
+	fmt.Println(myValue, adressOfMyValue)
 }
