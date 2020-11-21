@@ -3,5 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Go Pointers")
+	x := 7
+	fmt.Println(&x)
 }
